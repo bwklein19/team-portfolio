@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Animated gradient background -->
+  <defs>
+    <linearGradient id="hero-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2B5876">
+        <animate attributeName="stop-color" values="#2B5876; #4E4376; #2B5876" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#4E4376">
+        <animate attributeName="stop-color" values="#4E4376; #2B5876; #4E4376" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <!-- Particle effect pattern -->
+    <pattern id="particle-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="#FFD93D" fill-opacity="0.3">
+        <animate attributeName="r" values="1;2;1" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </pattern>
+    
+    <!-- Wave effect -->
+    <filter id="wave-blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+    </filter>
+  </defs>
+  
+  <!-- Base gradient -->
+  <rect width="1920" height="1080" fill="url(#hero-gradient)"/>
+  
+  <!-- Particle overlay -->
+  <rect width="1920" height="1080" fill="url(#particle-pattern)"/>
+  
+  <!-- Abstract waves -->
+  <path d="M0 300Q480 200 960 300T1920 300V1080H0V300Z" fill="#2B5876" fill-opacity="0.1" filter="url(#wave-blur)">
+    <animate attributeName="d" 
+             values="M0 300Q480 200 960 300T1920 300V1080H0V300Z;
+                     M0 300Q480 400 960 300T1920 300V1080H0V300Z;
+                     M0 300Q480 200 960 300T1920 300V1080H0V300Z"
+             dur="15s" repeatCount="indefinite"/>
+  </path>
+  
+  <path d="M0 400Q480 300 960 400T1920 400V1080H0V400Z" fill="#4E4376" fill-opacity="0.1" filter="url(#wave-blur)">
+    <animate attributeName="d" 
+             values="M0 400Q480 300 960 400T1920 400V1080H0V400Z;
+                     M0 400Q480 500 960 400T1920 400V1080H0V400Z;
+                     M0 400Q480 300 960 400T1920 400V1080H0V400Z"
+             dur="10s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Floating geometric shapes -->
+  <g fill="#FF6B6B" fill-opacity="0.1">
+    <circle cx="200" cy="200" r="100">
+      <animate attributeName="cy" values="200;220;200" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1720" cy="300" r="150">
+      <animate attributeName="cy" values="300;280;300" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="960" cy="150" r="80">
+      <animate attributeName="cy" values="150;170;150" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Light beams -->
+  <g fill="#FFD93D" fill-opacity="0.05">
+    <path d="M0 0L500 1080H0V0Z">
+      <animate attributeName="fill-opacity" values="0.05;0.1;0.05" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1920 0L1420 1080H1920V0Z">
+      <animate attributeName="fill-opacity" values="0.05;0.1;0.05" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Grid overlay -->
+  <rect width="1920" height="1080" fill="url(#grid)" fill-opacity="0.05"/>
+  <defs>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+</svg> 

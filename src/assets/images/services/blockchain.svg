@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blockchain Nodes -->
+  <rect x="40" y="40" width="40" height="40" rx="8" fill="#FF6F00"/>
+  <rect x="120" y="40" width="40" height="40" rx="8" fill="#FF6F00"/>
+  <rect x="40" y="120" width="40" height="40" rx="8" fill="#FF6F00"/>
+  <rect x="120" y="120" width="40" height="40" rx="8" fill="#FF6F00"/>
+  <!-- Connecting Lines -->
+  <line x1="80" y1="60" x2="120" y2="60" stroke="#FFB300" stroke-width="4"/>
+  <line x1="60" y1="80" x2="60" y2="120" stroke="#FFB300" stroke-width="4"/>
+  <line x1="140" y1="80" x2="140" y2="120" stroke="#FFB300" stroke-width="4"/>
+  <line x1="80" y1="140" x2="120" y2="140" stroke="#FFB300" stroke-width="4"/>
+  <!-- Hash Symbols -->
+  <text x="52" y="65" font-family="Arial" font-size="20" fill="white">#</text>
+  <text x="132" y="65" font-family="Arial" font-size="20" fill="white">#</text>
+  <text x="52" y="145" font-family="Arial" font-size="20" fill="white">#</text>
+  <text x="132" y="145" font-family="Arial" font-size="20" fill="white">#</text>
+</svg> 

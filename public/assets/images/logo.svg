@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Merlion Head -->
+  <g id="merlion-logo">
+    <!-- Main Merlion Head -->
+    <path d="M400 150C500 150 580 230 580 330C580 430 500 510 400 510C300 510 220 430 220 330C220 230 300 150 400 150Z" fill="#2B5876"/>
+    
+    <!-- Mane Details -->
+    <path d="M350 200C400 180 450 180 500 200C550 220 570 270 570 320C570 370 550 420 500 440C450 460 400 460 350 440C300 420 280 370 280 320C280 270 300 220 350 200Z" fill="#4E4376"/>
+    
+    <!-- Eye -->
+    <circle cx="380" cy="280" r="20" fill="white"/>
+    
+    <!-- Mouth -->
+    <path d="M360 320L440 320C460 320 480 340 480 360C480 380 460 400 440 400L360 400C340 400 320 380 320 360C320 340 340 320 360 320Z" fill="white"/>
+    
+    <!-- Stack Blocks -->
+    <g id="stack-blocks">
+      <rect x="600" y="200" width="80" height="80" fill="#2B5876"/>
+      <rect x="600" y="300" width="80" height="80" fill="#2B5876"/>
+      <rect x="600" y="400" width="80" height="80" fill="#2B5876"/>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <g id="text" transform="translate(200, 600)">
+    <text x="0" y="0" font-family="Arial" font-size="80" font-weight="bold" fill="#2B5876">STACK</text>
+    <text x="0" y="100" font-family="Arial" font-size="80" font-weight="bold" fill="#FF6B6B">MERLION</text>
+  </g>
+</svg> 

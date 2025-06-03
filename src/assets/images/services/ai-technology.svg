@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain Circuit -->
+  <circle cx="100" cy="100" r="70" stroke="#7B1FA2" stroke-width="4" fill="white"/>
+  <!-- Neural Network -->
+  <circle cx="70" cy="70" r="8" fill="#7B1FA2"/>
+  <circle cx="130" cy="70" r="8" fill="#7B1FA2"/>
+  <circle cx="100" cy="100" r="8" fill="#7B1FA2"/>
+  <circle cx="70" cy="130" r="8" fill="#7B1FA2"/>
+  <circle cx="130" cy="130" r="8" fill="#7B1FA2"/>
+  <!-- Connections -->
+  <line x1="70" y1="70" x2="100" y2="100" stroke="#9C27B0" stroke-width="2"/>
+  <line x1="130" y1="70" x2="100" y2="100" stroke="#9C27B0" stroke-width="2"/>
+  <line x1="70" y1="130" x2="100" y2="100" stroke="#9C27B0" stroke-width="2"/>
+  <line x1="130" y1="130" x2="100" y2="100" stroke="#9C27B0" stroke-width="2"/>
+  <!-- Circuit Lines -->
+  <path d="M30 100 C 50 60, 150 140, 170 100" stroke="#7B1FA2" stroke-width="2" fill="none"/>
+  <path d="M100 30 C 60 50, 140 150, 100 170" stroke="#7B1FA2" stroke-width="2" fill="none"/>
+</svg> 

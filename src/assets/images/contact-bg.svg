@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1920" height="1080" fill="url(#gradient-bg)"/>
+  
+  <!-- Abstract shapes -->
+  <path d="M0 400C200 350 400 500 600 450C800 400 1000 300 1200 350C1400 400 1600 450 1920 400V1080H0V400Z" 
+        fill="url(#shape-gradient)" fill-opacity="0.1"/>
+  <path d="M0 600C200 550 400 700 600 650C800 600 1000 500 1200 550C1400 600 1600 650 1920 600V1080H0V600Z" 
+        fill="url(#shape-gradient)" fill-opacity="0.15"/>
+  
+  <!-- Floating circles -->
+  <circle cx="200" cy="200" r="100" fill="#2B5876" fill-opacity="0.05"/>
+  <circle cx="1720" cy="300" r="150" fill="#4E4376" fill-opacity="0.05"/>
+  <circle cx="960" cy="150" r="80" fill="#FF6B6B" fill-opacity="0.05"/>
+  
+  <!-- Grid pattern -->
+  <path d="M0 0h1920v1080h-1920z" fill="url(#grid-pattern)" fill-opacity="0.03"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="gradient-bg" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8F9FA"/>
+      <stop offset="100%" stop-color="#E9ECEF"/>
+    </linearGradient>
+    
+    <linearGradient id="shape-gradient" x1="0" y1="0" x2="1920" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2B5876"/>
+      <stop offset="50%" stop-color="#4E4376"/>
+      <stop offset="100%" stop-color="#FF6B6B"/>
+    </linearGradient>
+    
+    <pattern id="grid-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2B5876" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+</svg> 
