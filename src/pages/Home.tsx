@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, Container, Typography, Grid, Button } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import heroBg from '../assets/images/hero-bg.svg';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, Container, Typography, Grid, Card, CardContent, CardMedia, Avatar } from '@mui/material';
 
 const teamMembers = [
@@ -59,7 +60,7 @@ const About = () => {
           >
             Join forces with us in a strategic partnership aimed at maximizing mutual
             profit through collaborative efforts with talented US developers. Together,
-            we'll leverage our combined expertise to penetrate and thrive in the
+            we&apos;ll leverage our combined expertise to penetrate and thrive in the
             dynamic US job market, capitalizing on emerging opportunities and driving
             sustained growth.
           </Typography>

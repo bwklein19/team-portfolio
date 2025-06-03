@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, Container, Typography, Button, Link } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
@@ -122,7 +123,7 @@ const Contact = () => {
               mt: 4,
             }}
           >
-            We're here to help! Choose your preferred way to connect with us, and we'll get back to you as soon as possible.
+            We&apos;re here to help! Choose your preferred way to connect with us, and we&apos;ll get back to you as soon as possible.
           </Typography>
         </Box>
       </Container>
