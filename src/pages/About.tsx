@@ -15,10 +15,10 @@ const teamMembers = [
     image: require('../assets/images/Benjamin Tan.png'),
   },
   {
-    name: 'Asher Li',
+    name: 'Arnel',
     role: 'Senior Backend Developer',
     description: 'Passionate about building scalable and efficient backend systems.',
-    image: require('../assets/images/Asher Li.png'),
+    image: require('../assets/images/Arnel.jpg'),
   },
   {
     name: 'Hong Cheng Hao',
