@@ -15,16 +15,16 @@ const teamMembers = [
     image: require('../assets/images/Benjamin Tan.png'),
   },
   {
+    name: 'Ryan Tan',
+    role: 'Machine Learning Engineer',
+    description: 'Passionate about building scalable and efficient machine learning models.',
+    image: require('../assets/images/Ryan Tan.png'),
+  },
+  {
     name: 'Arnel',
     role: 'Senior Backend Developer',
     description: 'Passionate about building scalable and efficient backend systems.',
     image: require('../assets/images/Arnel.jpg'),
-  },
-  {
-    name: 'Hong Cheng Hao',
-    role: 'Senior Frontend Developer',
-    description: 'Creative and detail-oriented professional dedicated to shaping exceptional user interfaces with expertise in modern frontend frameworks.',
-    image: require('../assets/images/Hong Cheng Hao.png'),
   },
 ];
 
