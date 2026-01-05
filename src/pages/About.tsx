@@ -2,30 +2,12 @@ import React from 'react';
 import { Box, Container, Typography, Grid, Card, CardContent, CardMedia, Avatar } from '@mui/material';
 
 const teamMembers = [
-  {
-    name: 'David Park',
-    role: 'Team Leader',
-    description: 'Lead by a seasoned professional with extensive hands-on experience in web development.',
-    image: require('../assets/images/David Park.jpg'),
-  },
-  {
+    {
     name: 'Benjamin Tan',
     role: 'Technical Lead (Full Stack Developer)',
     description: 'Visionary leader driving technological excellence with deep expertise in blockchain technology and AI solutions.',
     image: require('../assets/images/Benjamin Tan.png'),
-  },
-  {
-    name: 'Ryan Tan',
-    role: 'Machine Learning Engineer',
-    description: 'Passionate about building scalable and efficient machine learning models.',
-    image: require('../assets/images/Ryan Tan.png'),
-  },
-  {
-    name: 'Arnel',
-    role: 'Senior Backend Developer',
-    description: 'Passionate about building scalable and efficient backend systems.',
-    image: require('../assets/images/Arnel.jpg'),
-  },
+  }
 ];
 
 const About = () => {
