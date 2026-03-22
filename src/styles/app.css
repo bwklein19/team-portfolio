@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+#root {
+  min-height: 100vh;
+}
+
+astro-island,
+astro-slot,
+astro-static-slot {
+  display: contents;
+}
+
+.faq-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.faq-icon.open {
+  transform: rotate(45deg);
+}
+
+.react-portfolio-page [data-codex-carousel-track="true"] {
+  will-change: transform;
+}

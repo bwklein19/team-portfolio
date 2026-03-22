@@ -1,0 +1,107 @@
+[
+  {
+    "id": "home",
+    "path": "/",
+    "title": "Neonspark",
+    "description": "Neonspark is a modern and creative landing page template for startups and SaaS businesses.",
+    "moduleKey": "../generated/pages/home.json"
+  },
+  {
+    "id": "about",
+    "path": "/about",
+    "title": "About",
+    "description": "We're not just a team of developers; we're a group of passionate creators and problem-solvers dedicated to building the future of the web. We believe that a great website is more than just code—it's the foundation of a thriving digital identity.",
+    "moduleKey": "../generated/pages/about.json"
+  },
+  {
+    "id": "contact",
+    "path": "/contact",
+    "title": "Contact Us",
+    "description": "We're not just a team of developers; we're a group of passionate creators and problem-solvers dedicated to building the future of the web. We believe that a great website is more than just code—it's the foundation of a thriving digital identity.",
+    "moduleKey": "../generated/pages/contact.json"
+  },
+  {
+    "id": "faq",
+    "path": "/faq",
+    "title": "FAQ",
+    "description": "Our AI writing service is designed to provide assistance in generating high-quality written content. It can help with tasks such as writing articles, blog posts, marketing copy, and more.",
+    "moduleKey": "../generated/pages/faq.json"
+  },
+  {
+    "id": "teams",
+    "path": "/teams",
+    "title": "Meet Our Team",
+    "description": "We're not just a team of developers; we're a group of passionate creators and problem-solvers dedicated to building the future of the web. We believe that a great website is more than just code—it's the foundation of a thriving digital identity.",
+    "moduleKey": "../generated/pages/teams.json"
+  },
+  {
+    "id": "blog",
+    "path": "/blog",
+    "title": "Feature Blog",
+    "description": "We're not just a team of developers; we're a group of passionate creators and problem-solvers dedicated to building the future of the web. We believe that a great website is more than just code—it's the foundation of a thriving digital identity.",
+    "moduleKey": "../generated/pages/blog.json"
+  },
+  {
+    "id": "blog-post-1",
+    "path": "/blog/post-1",
+    "title": "AI in the Modern Workplace: A Guide for Businesses",
+    "description": "Explore how artificial intelligence is transforming business operations",
+    "moduleKey": "../generated/pages/blog-post-1.json"
+  },
+  {
+    "id": "blog-post-2",
+    "path": "/blog/post-2",
+    "title": "The Future of Remote Work: Building High-Performance Distributed Teams",
+    "description": "Discover strategies for creating successful remote teams and maintaining productivity in a distributed work environment",
+    "moduleKey": "../generated/pages/blog-post-2.json"
+  },
+  {
+    "id": "blog-post-3",
+    "path": "/blog/post-3",
+    "title": "Cybersecurity in 2025: Protecting Your Business from Evolving Threats",
+    "description": "Essential cybersecurity strategies and best practices to safeguard your business in an increasingly connected world",
+    "moduleKey": "../generated/pages/blog-post-3.json"
+  },
+  {
+    "id": "blog-post-4",
+    "path": "/blog/post-4",
+    "title": "Digital Transformation Roadmap: A Step-by-Step Guide for Modern Businesses",
+    "description": "Navigate your digital transformation journey with practical strategies and proven frameworks for successful organizational change",
+    "moduleKey": "../generated/pages/blog-post-4.json"
+  },
+  {
+    "id": "services",
+    "path": "/services",
+    "title": "Our Services",
+    "description": "We're not just a team of developers; we're a group of passionate creators and problem-solvers dedicated to building the future of the web. We believe that a great website is more than just code—it's the foundation of a thriving digital identity.",
+    "moduleKey": "../generated/pages/services.json"
+  },
+  {
+    "id": "service-copy-writer",
+    "path": "/services/copy-writer",
+    "title": "Professional Copywriting Services - NeonSpark",
+    "description": "Expert copywriting services for websites, marketing campaigns, and brand messaging. Compelling content that converts.",
+    "moduleKey": "../generated/pages/service-copy-writer.json"
+  },
+  {
+    "id": "works",
+    "path": "/works",
+    "title": "Our Work",
+    "description": "We're not just a team of developers; we're a group of passionate creators and problem-solvers dedicated to building the future of the web. We believe that a great website is more than just code—it's the foundation of a thriving digital identity.",
+    "moduleKey": "../generated/pages/works.json"
+  },
+  {
+    "id": "privacy-policy",
+    "path": "/privacy-policy",
+    "title": "Privacy Policy",
+    "description": "Our commitment to protecting your privacy and handling your personal information with care.",
+    "moduleKey": "../generated/pages/privacy-policy.json"
+  },
+  {
+    "id": "terms-and-condition",
+    "path": "/terms-and-condition",
+    "title": "Terms & Conditions",
+    "description": "Our terms and conditions governing the use of our services and website.",
+    "moduleKey": "../generated/pages/terms-and-condition.json"
+  }
+]
