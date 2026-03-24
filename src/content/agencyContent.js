@@ -214,7 +214,7 @@ export const agencyContent = {
       githubUrl: "https://github.com/1inch4us",
     },
     {
-      name: "Kevin Lee",
+      name: "Eric Chan",
       role: "Senior Web Developer",
       image: "/agency/profile/kevin lee.png",
       portfolioUrl: "https://hera4tune.github.io",
