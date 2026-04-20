@@ -218,7 +218,7 @@ export const agencyContent = {
       role: "Senior Web Developer",
       image: "/agency/profile/kevin lee.png",
       portfolioUrl: "https://lucas.stackmerlion.com/",
-      githubUrl: "https://github.com/BitBravo",
+      githubUrl: "https://github.com/luka57lee",
     },
   ],
   testimonials: [
