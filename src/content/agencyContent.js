@@ -354,23 +354,6 @@ export const agencyContent = {
   ],
   projects: [
     {
-      name: "Capture411",
-      industry: "GovTech / Procurement Intelligence",
-      image: "/agency/projects/capture411.png",
-      summary:
-        "A document-heavy procurement platform built to turn scattered government bid files into a searchable, useful system.",
-      delivery:
-        "We built the product interface, backend workflows, and cloud-based document processing pipeline that scanned, normalized, and organized large volumes of PDF data.",
-      technologies: [
-        "React",
-        "Next.js",
-        "Node.js",
-        "PostgreSQL",
-        "AWS",
-        "Textract",
-      ],
-    },
-    {
       name: "GETTR",
       industry: "Social Media / Livestreaming",
       image: "/agency/projects/gettr.png",
